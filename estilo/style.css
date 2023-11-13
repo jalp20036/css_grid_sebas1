@@ -23,8 +23,6 @@
 
 section ul li {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 .menu-item {
@@ -36,7 +34,7 @@ section ul li {
     border-right: 1px solid black;
 }
 
-section ul li:last-child .menu-item {
+section ul li:last-of-type .menu-item {
     border-right: none
 }
 
