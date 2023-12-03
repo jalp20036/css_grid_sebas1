@@ -65,7 +65,7 @@ section ul li:last-of-type .menu-item {
 }
 
 #hr {
-    width: 15%;
+    width: 25%;
     background-color: lightgray;
     margin: 0 auto;
 }
@@ -81,9 +81,13 @@ section ul li:last-of-type .menu-item {
     height: 124px;
     width: 174px;
     margin: 20px;
-    border: 3px solid rgb(167, 21, 21);
+    border: 3px solid rgb(58, 54, 54);
     float: left;
     border-radius: 6px;
+    background-image: url(../img/image.jpg);
+    background-size: 180px 150px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .button {
