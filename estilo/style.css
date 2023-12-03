@@ -3,7 +3,7 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     transition: all ease 400ms;
-    color: lightgray;
+    color: black;
 }
 
 .seccion {
@@ -59,27 +59,51 @@ section ul li:last-of-type .menu-item {
 }
 
 #title {
-    font-size: 60px;
+    font-size: 45px;
     text-align: center;
+    color: black;
 }
 
 #hr {
-    width: 30%;
+    width: 15%;
     background-color: lightgray;
     margin: 0 auto;
 }
 
 .container{ 
-    padding: 100px;
+    padding: 50px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
 }
 
 .box {
-    height: 100px;
-    width: 100px;
+    height: 125px;
+    width: 175px;
     margin: 20px;
-    border: 5px solid lightgray;
+    border: 3px solid rgb(167, 21, 21);
     float: left;
+    border-radius: 6px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.button .button-final {
+    background-color: rgb(11, 82, 11);
+    padding: 16px 60px;
+    border: none;
+    font-size: 20px;
+    border-radius: 4px
+}
+
+.pie {
+    /* background: #080620; */
+    padding: 35px;
+    color:black;
+    text-align: center;
+    border-top: 2px solid black;
 }
